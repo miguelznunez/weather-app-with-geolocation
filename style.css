@@ -1,0 +1,53 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Comfortaa', cursive;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  overflow: hidden;
+  color: transparent;
+  height: 100vh;
+}
+
+h1,
+h2,
+h3,
+p{
+  color: white;
+  text-shadow: 1px 1px 2px black;
+}
+
+#temperature{
+  font-size: 1.2rem;
+}
+
+.icon-container{
+  position: relative;
+  width: 250px;
+  height: 200px;
+  /* border: 1px solid orange; */
+} 
+
+
+#icon{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 250px;
+  margin: auto;
+  /* border: 1px solid white; */
+}
+
+.gap{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
